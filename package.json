@@ -1,0 +1,30 @@
+{
+  "name": "@writetome51/get-subscription-data",
+  "version": "1.0.0",
+  "description": "Returns data result from a Subscription to an Observable once and then unsubscribes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-subscription-data.git"
+  },
+  "keywords": [
+    "observable",
+    "subscription",
+    "data",
+    "helper",
+    "rxjs"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/get-subscription-data/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-subscription-data#readme",
+  "dependencies": {
+    "rxjs": "~6.3.3"
+  }
+}

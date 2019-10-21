@@ -1,7 +1,8 @@
 # getSubscriptionData(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subscribable: Subscribable&lt;any&gt;<br>): Promise&lt;any&gt;
 
-Async function that returns the data result of a Subscription (to a Subscribable)  
-only once and then unsubscribes automatically.
+Async function that only returns the first data result of a Subscription (to a Subscribable)  
+and then unsubscribes automatically.  Useful if you only want the first result and don't  
+need to keep the Subscription open.
 
 ## Examples
 ```ts
@@ -16,7 +17,6 @@ async function getFirstLottoNumber() {
     return await getSubscriptionData(lottoNumbersObservable);
 }
 ```
-
 
 ## Installation
 `npm i  @writetome51/get-subscription-data`

@@ -1,9 +1,8 @@
-// Use this only if you expect a subscription to `subscribable` to return data once
-// and then close.  Or use it if you only want to retrieve data from the subscription
-// once.
-
 import { Subscribable } from 'rxjs';
 
+
+// Use this if you only want to retrieve data from the subscription
+// once.
 
 export async function getSubscriptionData(
 	subscribable: Subscribable<any>

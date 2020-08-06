@@ -6,7 +6,7 @@ and then unsubscribes automatically.  Useful if you only want the first result a
 need to keep the Subscription open.
 
 ## Examples
-```ts
+```js
 async function logToConsole() {
     let data = await getSubscriptionData(
         sendHTTPRequest('http://website.com') // returns an observable
@@ -23,10 +23,6 @@ async function getFirstLottoNumber() {
 `npm i  @writetome51/get-subscription-data`
 
 ## Loading
-```ts
-// if using TypeScript:
+```js
 import {getSubscriptionData} from '@writetome51/get-subscription-data';
-// if using ES5 JavaScript:
-var getSubscriptionData = 
-    require('@writetome51/get-subscription-data').getSubscriptionData;
 ```
